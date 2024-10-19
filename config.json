@@ -1,0 +1,39 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "title": "",
+  "name": "Adi Kulkarni",
+  "ascii": "portfolio.sh",
+  "social": {
+    "github": "adikul1023",
+    "linkedin": "adi-kulkarni-50b220302"
+  },
+  "email": "adi@adi-kulkarni.in",
+  "ps1_hostname": "portfolio.sh",
+  "ps1_username": "visitor",
+  "asite": "http://adi-kulkarni.in",
+  "repo": "https://github.com/adikul1023/portfolio.sh",
+  "resume_url": "https://adi-kulkarni.in/resume",
+  "donate_urls": {
+    "paypal": "https://paypal.me/adikul1023"
+  },
+  "colors": {
+    "light": {
+      "background": "#FBF1C9",
+      "foreground": "#eadbb2",
+      "yellow": "#D79921",
+      "green": "#98971A",
+      "gray": "#7C6F64",
+      "blue": "#458588",
+      "red": "#CA2124"
+    },
+    "dark": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  }
+}
