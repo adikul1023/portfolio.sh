@@ -7,15 +7,14 @@
     "url": "https://cli.adi-kulkarni.in",
     "email": "adi@adi-kulkarni.in"
   },
-  "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "export": "next export",
-  "start": "next start",
-  "predeploy": "npm run build && npm run export",
-  "deploy": "gh-pages -d out"
-},
-
+ "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
+  },
+  
   "dependencies": {
     "axios": "^0.27.2",
     "next": "12.1.6",
@@ -35,6 +34,7 @@
     "eslint-plugin-next": "^0.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "gh-pages": "^6.2.0",
     "husky": "^8.0.1",
     "postcss": "^8.4.13",
     "prettier": "^2.6.2",
