@@ -1,5 +1,5 @@
 {
-  "name": "portfolio.sh",
+  "name": "liveterm",
   "version": "0.1.0",
   "license": "MIT",
   "author": {
@@ -8,12 +8,14 @@
     "email": "adi@adi-kulkarni.in"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky install"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "start": "next start",
+  "predeploy": "npm run build && npm run export",
+  "deploy": "gh-pages -d out"
+},
+
   "dependencies": {
     "axios": "^0.27.2",
     "next": "12.1.6",
